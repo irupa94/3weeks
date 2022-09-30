@@ -5,7 +5,7 @@ public class Bus extends transport{
     int maxPass = 30;		// 최대 승객 수
     int currentPass = 0;	// 현재 승객 수
     int cost = 1000;		// 요금
-    // 버스 번호 지정 [고유값으로 생성되어야 되기에 랜덤함수로 함]
+
     public Bus() {
         this.num = (int)(Math.random()*100+1);
         System.out.println("버스 번호 : "+num);
